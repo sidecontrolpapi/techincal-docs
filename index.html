@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Technical</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>Python Docs</h1>
+            <hr>
+        </header>
+        <a class="nav-link" href="#Hello-World">Hello World</a>
+
+        <hr>
+        <a class="nav-link" href="#If-Statement">If Statement</a>
+        <hr>
+        <a class="nav-link" href="#For-Loop">For Loop</a>
+        <hr>
+        <a href="#While_Loop" class="nav-link" href="">While Loop</a>
+        <hr>
+        <a class="nav-link" href="#Declaring-Functions">Declaring Functions</a>
+        <hr>
+    </nav>
+    <main id="main-doc">
+    <section id="Hello_World" class="main-section">
+        <header id="Hello-World"> <h2> Hello World </h2></header>
+        
+        <p>Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).</p>
+        <p>To print a string in Python 3, just write:</p>
+        <code>print("This line will be printed.")</code>
+       
+         <hr>
+    </section>
+    <section id="If_Statement" class="main-section">
+        <header id="If-Statement">  <h1>If Statement </h1> </header>
+       
+        <p>Decision making is required when we want to execute a code only if a certain condition is satisfied. The if…elif…else statement is used in Python for decision making.</p>
+
+        <code> if test expression:
+            statement(s)</code>
+            <p> Here, the program evaluates the test expression and will execute statement(s) only if the test expression is True.
+
+                If the test expression is False, the statement(s) is not executed.
+                
+                In Python, the body of the if statement is indicated by the indentation. The body starts with an indentation and the first unindented line marks the end.
+                
+                Python interprets non-zero values as True. None and 0 are interpreted as False.</p>
+         <hr>
+    </section>
+    <section id="For_Loop" class="main-section">
+        <header id="For-Loop">  <h1>For_Loop</h1></header>
+        
+        <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+            This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.</p>
+        <p>With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+        <code>fruits = ["apple", "banana", "cherry"]
+           </code>
+           <br>
+           <code> for x in fruits:
+            print(x)</code>
+         <hr>
+    </section>
+    <section id="While_Loop" class="main-section">
+        <header id="While-Loop"> <h1>While Loop</h1></header>
+        
+        <p> while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.</p>
+       
+        <code>while expression:</code>
+        <br> 
+        <code> statement(s)</code>
+        <p>Here, statement(s) may be a single statement or a block of statements. The condition may be any expression, and true is any non-zero value. The loop iterates while the condition is true.
+
+            When the condition becomes false, program control passes to the line immediately following the loop.
+            
+            In Python, all the statements indented by the same number of character spaces after a programming construct are considered to be part of a single block of code. Python uses indentation as its method of grouping statements</p>
+         <hr>
+    </section>
+    <section id="Declaring_Functions" class="main-section">
+        <header id="Declaring-Functions"> <h1>Declaring Functions</h1></header>
+        <p>You can define functions to provide the required functionality. Here are simple rules to define a function in Python:</p>
+       <ul>
+           <li>Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).</li>
+           <li>Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.</li>
+           <li>The first statement of a function can be an optional statement - the documentation string of the function or docstring.</li>
+           <li>The code block within every function starts with a colon (:) and is indented.</li>
+           <li>The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None</li>
+       </ul>
+        <code>def functionname( parameters ):
+            <br>
+            "function_docstring"
+            <br>
+            function_suite
+            <br>
+            return [expression]</code>
+       
+        <p>By default, parameters have a positional behavior and you need to inform them in the same order that they were defined.</p>
+       
+         <hr>
+    </section>
+    </main>
+</body>
+</html>

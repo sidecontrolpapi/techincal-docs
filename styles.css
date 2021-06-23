@@ -1,0 +1,51 @@
+a {
+    color: #515151;
+    text-decoration: none;
+  
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+
+code {
+    background-color: #ccc;
+    width: 100%;
+    height: 3vh;
+}
+
+li {
+    list-style: square;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    border-right: solid grey;
+}
+
+main {
+    margin-left: 32vw;
+}
+
+p {
+    padding-right: 2vw;
+}
+
+@media (max-width:800px) {
+    nav {
+        position: relative;
+        width: 100%;
+    }
+    main {
+        margin-left: 0;
+    }
+
+}
